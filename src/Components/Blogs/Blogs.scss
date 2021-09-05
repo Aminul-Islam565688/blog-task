@@ -1,0 +1,33 @@
+.blog-cart {
+  display: block;
+  margin: 50px auto;
+  width: 500px;
+  background-color: aqua;
+  border: 1px solid grey;
+  padding: 20px;
+  .img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .blog-content {
+    .happy,
+    .sad,
+    .angry {
+      margin: 10px;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+    }
+    .happy {
+      background-color: yellow;
+    }
+    .sad {
+      background-color: lightgray;
+    }
+    .angry {
+      background-color: red;
+    }
+  }
+}
